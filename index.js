@@ -15,8 +15,13 @@ module.exports = defineConfig({
     'plugin:markdown/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
+    '@vue/eslint-config-typescript',
+    '@vue/eslint-config-prettier/skip-formatting',
     'prettier',
   ],
+  parserOptions: {
+    ecmaVersion: 'latest'
+  },
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts', '.tsx'] },
