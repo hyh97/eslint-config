@@ -1,43 +1,32 @@
 {
   "name": "@xdao/eslint-config",
   "version": "1.0.1",
-  "description": "esling config",
+  "description": "ESlint Config",
   "main": "index.js",
-  "scripts": {
-    "test": "n"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyh97/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint config"
-  ],
-  "author": "hyh97",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hyh97/eslint-config/issues"
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/hyh97/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.56.0"
+  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint-config-prettier": "^8.10.0",
-    "eslint-define-config": "^1.24.1",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-define-config": "^2.1.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsonc": "^2.16.0",
-    "eslint-plugin-markdown": "^3.0.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-unicorn": "^43.0.2",
-    "eslint-plugin-vue": "^9.18.1",
+    "eslint-plugin-markdown": "^5.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
     "jsonc-eslint-parser": "^2.4.0",
-    "prettier": "^2.8.8",
-    "typescript": "^4.9.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3",
     "yaml-eslint-parser": "^1.2.3"
   },
   "devDependencies": {
-    "eslint": "^8.54.0"
+    "eslint": "^8.57.0"
   }
 }
