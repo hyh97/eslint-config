@@ -1,0 +1,25 @@
+{
+  "name": "@xdao/eslint-config",
+  "version": "1.0.0",
+  "description": "esling config",
+  "main": "index.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyh97/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "sovyh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyh97/eslint-config/issues"
+  },
+  "homepage": "https://github.com/hyh97/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
