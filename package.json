@@ -1,6 +1,6 @@
 {
   "name": "@xdao/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "esling config",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/hyh97/eslint-config.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslint config"
   ],
-  "author": "sovyh",
+  "author": "hyh97",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hyh97/eslint-config/issues"
